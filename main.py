@@ -67,7 +67,7 @@ def main() -> None:
     updater.start_webhook(listen="0.0.0.0",
                           port=int(PORT),
                           url_path=TOKEN)
-    updater.bot.setWebhook('https://evening-caverns-72199.herokuapp.com/' + TOKEN)
+    updater.bot.setWebhook('https://https://android7-bot.herokuapp.com//' + TOKEN)
     updater.idle()
 
 

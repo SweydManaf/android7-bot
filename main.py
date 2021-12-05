@@ -16,8 +16,6 @@ import logging
 from telegram import Update, ForceReply, ParseMode
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
-import os
-PORT = int(os.environ.get('PORT', 443))
 
 # Enable logging
 logging.basicConfig(
